@@ -1,0 +1,161 @@
+.bg-image { 
+  /* Set rules to fill background */
+  /*min-height: 100%;
+  min-width: 1024px;*/
+    
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+    
+  /* Set up positioning */
+
+  z-index: 5;
+}
+
+
+#quote { 
+        /*border-top: dotted 1px;
+        border-color: #ffffff;
+        border-width: 10%;
+        padding: 40px;*/
+        font-family: 'Noto Serif', serif;
+        font-style: 400;
+        font-size: 4rem;
+
+
+   margin-top: 0.125rem;
+   padding-left: 4rem;
+   padding-right: 4rem;
+   position: absolute; 
+   text-align: center;
+   color: #00ffab;
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   text-shadow: 1px 1px #000000;
+   z-index: 6;
+  }
+
+
+.container {
+	background-color: "ffffff";
+  	display: flex; 
+  	flex-wrap: wrap; 
+  	justify-content: center;
+
+}
+
+.main {
+	font-family: 'Noto Serif', serif;
+	background-color: #ffffff;
+    min-height: 500px;
+    margin-left:4rem;
+    margin-right:4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 0.125rem;
+
+}
+
+
+h1 {
+	font-family: 'Noto Serif', serif;
+    font-style: 400;
+    font-size: 2.25rem;
+    margin-top: 0.125rem;
+ 
+}
+
+/*
+h2 {
+	font-family: 'Noto Serif', serif;
+    font-style: 400;
+    line-height: 1.3rem;
+    font-size: 1rem; /* 1rem 
+    color: #767676;
+} 
+*/
+
+
+h3 { 
+	font-family: 'Noto Serif', serif;
+    font-style: 700;
+    font-size: 1rem;
+    padding: 0.375rem 0;
+    color: #005689;
+    margin-top: 40px;
+    border-bottom: dotted 0.05rem;
+    border-color: rgb(220,220,220);
+
+
+}
+
+/*h4 {
+	font-family: 'Noto Serif', serif;
+    color: #005689;
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-top: 0.25rem;
+    border-top: dotted 0.05rem;
+    border-color: rgb(220,220,220);
+
+}*/
+
+
+h5 {
+	background: linear-gradient(top, #fff 0%, #fff 50%, #ddd 50%, #ddd 50.5%, #fff 50.5%, #fff 100%);
+	font-family: 'Open Sans', sans-serif;	
+	color: #005689;
+	font-size: 0.75rem;
+	padding-bottom: 5px;
+	border-bottom: dotted 0.05rem;
+    border-color: rgb(220,220,220);
+    margin-bottom: 20px;
+}
+
+p {
+	font-family: 'Noto Serif', serif;
+    font-style: 400;
+    font-size: 1rem ;
+    color: rgb(51,51,51);
+}
+
+
+
+figcaption {
+	padding-top: 8px;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 0.75rem;
+	color: rgb(100,100,100);
+}
+
+/* Font for non-serifs:   font-family: 'Trebuchet MS', Helvetica, sans-serif;*/
+
+
+
+a:link, a:visited { 
+	text-decoration: none !important;
+	color: #005689; 
+	border-bottom: 0.0625rem solid #dcdcdc;
+		-webkit-transition: border-color 0.5s ease-out;
+            transition: border-color 0.5s ease-out; 
+}
+
+
+a:active { 
+	text-decoration: none !important;
+	color: rgb(75,198,223); 
+	border-bottom: 0.0625rem color: rgb(75,198,223);
+
+}
+
+a:hover {
+	text-decoration: none !important;
+	-webkit-transition: border-color 0.5s ease-out;
+            transition: border-color 0.5s ease-out; 
+	color: #005689; 
+	cursor: pointer;
+	border-bottom: 0.1rem solid #005689;
+
+}
